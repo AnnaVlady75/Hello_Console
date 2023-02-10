@@ -1,8 +1,8 @@
 ﻿Console.Clear();
 
-int xa = 1, ya = 1,
+int xa = 40, ya = 1,
     xb = 1, yb = 30,
-    xc = 60, yc = 30;
+    xc = 80, yc = 30;
 
 Console.SetCursorPosition(xa,ya);
 Console.WriteLine("+");
@@ -19,7 +19,7 @@ int count = 0;
 
 while(count<10000)
 {
-    int what = new Random().Next(0, 3);
+    int what = new Random().Next(0, 5);
     if(what == 0)
 {
     x = (x+xa)/2;
